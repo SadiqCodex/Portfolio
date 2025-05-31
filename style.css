@@ -44,7 +44,7 @@ body{
     align-items: center;
     background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
     background-size: 400%;
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: rainbow 2s infinite;
 }
@@ -134,7 +134,7 @@ main{
     margin-top: 145px;
 }
 .box{
-    margin: 15px;
+    margin: 5px;
 }
 .hero-heading{
     margin-top: 0;
@@ -142,7 +142,7 @@ main{
     color: white;
 }
 .hero-para{
-    font-size: 40px;
+    font-size: 30px;
     color: wheat;
     font-weight: 900;
 }
@@ -152,7 +152,7 @@ main{
     padding: 15px;
     border-radius: 50px;
     font-size: 30px;
-    margin: 3rem;
+    margin: 8rem;
     text-decoration: none;
 }
 .hero-btn:hover{
@@ -745,7 +745,7 @@ main{
     transform: translateX(10px);
 }
 .contact-container2{
-    height: 90%;
+    height: 100%;
     background-color: white;
     width: 40%;
     border: 2px solid white;
@@ -762,6 +762,7 @@ main{
 .contact-form-div{
     height: 100%;
     width: 100%;
+    margin-top: 50px;
 }
 .form-row{
     height: 100%;
@@ -777,7 +778,7 @@ main{
 .form-col{
     font-size: 20px;
     border-radius: 5px;
-    height: 45px;
+    height: 35px;
     width: 75%;
 }
 .form-coln{
